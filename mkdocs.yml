@@ -1,2 +1,32 @@
 site_name: FrontEcho's Notebook
 site_url: https://note.frontecho.cn/
+repo_name: frontecho/notebook
+repo_url: https://github.com/frontecho/notebook/
+edit_uri: tree/main/docs
+site_description: FrontEcho的笔记本
+copyright: Copyright &copy; 2023 <a href="https://github.com/frontecho" target="_blank" rel="noopener">FrontEcho</a>
+
+theme: 
+  name: 'material'
+  language: 'zh'
+  icon: 
+    logo: material/notebook-outline
+  # custom_dir: overrides
+  features:
+    - content.code.annotate
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+  font: false
+  palette:
+    - scheme: default
+
+plugins:
+  - search
+
+not_in_nav: todo.md
+
+nav:
+  - Home:
+    - index.md
