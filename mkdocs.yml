@@ -30,7 +30,3 @@ not_in_nav: todo.md
 nav:
   - Home:
     - index.md
-  - Computer Science:
-    - cs/index.md
-    - Web:
-      - cs/web.md
