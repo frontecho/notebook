@@ -6,7 +6,7 @@ repo_name: frontecho/notebook
 repo_url: https://github.com/frontecho/notebook/
 edit_uri: tree/main/docs
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/frontecho" target="_blank" rel="noopener">FrontEcho</a>
+copyright: Copyright &copy; 2024 <a href="https://github.com/frontecho" target="_blank" rel="noopener">FrontEcho</a>
 
 theme: 
   name: 'material'
@@ -72,8 +72,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/frontecho
-    - icon: fontawesome/solid/home
-      link: https://note.frontecho.top/
+    # - icon: fontawesome/solid/home
+    #   link: https://note.frontecho.top/
 
 extra_css:
   - _static/stylesheets/custom.css
