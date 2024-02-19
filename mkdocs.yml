@@ -1,9 +1,11 @@
 site_name: FrontEcho's Notebook
 site_url: https://note.frontecho.top/
+site_description: FrontEcho的笔记本
+
 repo_name: frontecho/notebook
 repo_url: https://github.com/frontecho/notebook/
 edit_uri: tree/main/docs
-site_description: FrontEcho的笔记本
+
 copyright: Copyright &copy; 2023 <a href="https://github.com/frontecho" target="_blank" rel="noopener">FrontEcho</a>
 
 theme: 
@@ -11,22 +13,164 @@ theme:
   language: 'zh'
   icon: 
     logo: material/notebook-outline
+  # logo: _static/assets/favicon.png
+  favicon: _static/assets/favicon.png
   # custom_dir: overrides
+  custom_dir: mkdocs-material/material/templates
+  # include_search_page: false
+  # search_index_only: true
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
   features:
+    # - header.autohide
+    - announce.dismiss
+    - content.action.edit
+    # - content.action.view
     - content.code.annotate
-    - navigation.tracking
-    - navigation.tabs
+    - content.code.copy
+    # - content.code.select
+    - content.tooltips
+    # - navigation.expand
+    # - navigation.footer
     - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    # - content.tabs.link
     - navigation.top
-  font: false
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: G-DYETCPM289
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/frontecho
+    - icon: fontawesome/solid/home
+      link: https://note.frontecho.top/
+
+extra_css:
+  - _static/stylesheets/custom.css
+  - _static/stylesheets/flink.css  # friends links css
+
+extra_javascript:
+  - _static/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://assets.frontecho.top/jsdelivr/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - https://assets.frontecho.top/jsdelivr/npm/jquery@3.7.1/dist/jquery.min.js
+
+markdown_extensions:
+  # Python Markdown
+  - tables
+  - sane_lists
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: none}}
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - mkdocs-material\material\templates\.icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        # - name: math
+        #   class: arithmatex
+        #   format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        # - zh
+        - ja
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
+  - tags:
+      tags_file: home/tags.md
+  - glightbox  # pictures lightbox
+  - statistics
 
-# not_in_nav: todo.md
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: ignore
+    absolute_links: ignore
+    unrecognized_links: ignore
+
+exclude_docs: |
+  todo.md
+
+not_in_nav: |
+  todo.md
 
 nav:
-  - Home:
+  - 🏡Home:
     - index.md
+    - 🔖标签: home/tags.md
+    - 🔗友链: home/links.md

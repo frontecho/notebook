@@ -2,4 +2,4 @@
 
 Build with Mkdocs
 
-[Welcome to my notebook site](https://note.frontecho.cn)
+[Welcome to my notebook site](https://note.frontecho.top)
