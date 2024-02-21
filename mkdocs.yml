@@ -11,15 +11,15 @@ nav:
     - index.md
     - 🔖标签: home/tags.md
     - 🔗友链: home/links.md
-  - Workflow & Memorandum
+  - Workflow & Memorandum:
     - work/index.md
-  - Core Curriculum
+  - Core Curriculum:
     - courses/index.md
-  - Computer Science
+  - Computer Science:
     - cs/index.md
-  - Geoscience
+  - Geoscience:
     - geoscience/index.md
-  - Others
+  - Others:
     - others/index.md
 
 theme: 
