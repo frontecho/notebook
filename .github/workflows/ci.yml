@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -31,6 +33,7 @@ jobs:
           mkdocs-glightbox \
           mkdocs-minify-plugin \
           mkdocs-statistics-plugin \
+          mkdocs-git-revision-date-localized-plugin \
           jieba
         # mkdocs-heti-plugin 
       - run: mkdocs gh-deploy --force

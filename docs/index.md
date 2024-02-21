@@ -1,19 +1,28 @@
-# Welcome to MkDocs
+---
+statistics: True
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Frontecho's Notebook
+# o(〃'▽'〃)o Hi!
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! success "Hello World"
+        Nice to Meet You at Frontecho's Notebook ！
+        
+        本站共有 {{ pages }} 个页面，{{ words }} 个字，{{ codes }} 行代码。
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! warning "建设"
+    
+    目前网站正在建设，欢迎参观！
+    - 关于我的工作流和备忘录，请参阅 [Workflow & Memorandum](courses/index.md)
+    - 关于ZJU通识课程的笔记，请参阅 [Core Curriculum](courses/index.md)
+    - 关于计算机学习的笔记，请参阅 [Computer Science](cs/index.md)
+    - 关于地学学习的笔记，请参阅 [Geoscience](geoscience/index.md)
+    - 另外还有一堆杂七杂八的记录，请参阅 [Others](others/index.md)
 
-## Hello World!
+
+!!! note "关于我"
+
+    whoami ???
+

@@ -1,12 +1,26 @@
 site_name: FrontEcho's Notebook
 site_url: https://note.frontecho.top/
 site_description: FrontEcho的笔记本
-
 repo_name: frontecho/notebook
 repo_url: https://github.com/frontecho/notebook/
 edit_uri: tree/main/docs
-
 copyright: Copyright &copy; 2024 <a href="https://github.com/frontecho" target="_blank" rel="noopener">FrontEcho</a>
+
+nav:
+  - 🏡Home:
+    - index.md
+    - 🔖标签: home/tags.md
+    - 🔗友链: home/links.md
+  - Workflow & Memorandum
+    - work/index.md
+  - Core Curriculum
+    - courses/index.md
+  - Computer Science
+    - cs/index.md
+  - Geoscience
+    - geoscience/index.md
+  - Others
+    - others/index.md
 
 theme: 
   name: 'material'
@@ -14,7 +28,7 @@ theme:
   icon: 
     logo: material/notebook-outline
   # logo: _static/assets/favicon.png
-  favicon: _static/assets/favicon.png
+  favicon: _static/assets/favicon.ico
   custom_dir: overrides
   # custom_dir: mkdocs-material/material/templates
   # include_search_page: false
@@ -29,7 +43,7 @@ theme:
     # - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
+    - content.code.select
     - content.tooltips
     # - navigation.expand
     # - navigation.footer
@@ -84,13 +98,13 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://assets.frontecho.top/jsdelivr/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - https://assets.frontecho.top/jsdelivr/npm/jquery@3.7.1/dist/jquery.min.js
 
 markdown_extensions:
   # Python Markdown
+  - meta
+  - abbr
   - tables
   - sane_lists
-  - abbr
   - admonition
   - attr_list
   - def_list
@@ -123,7 +137,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
-          - mkdocs-material\material\templates\.icons
+          - overrides/.icons
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -152,6 +166,8 @@ plugins:
       tags_file: home/tags.md
   - glightbox  # pictures lightbox
   - statistics
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 validation:
   nav:
@@ -168,9 +184,3 @@ exclude_docs: |
 
 not_in_nav: |
   todo.md
-
-nav:
-  - 🏡Home:
-    - index.md
-    - 🔖标签: home/tags.md
-    - 🔗友链: home/links.md
