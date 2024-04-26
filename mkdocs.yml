@@ -13,10 +13,26 @@ nav:
     - 🔗友链: home/links.md
   - Workflow & Memorandum:
     - work/index.md
+    - Server:
+      - work/server/index.md
+      - work/server/server_root.md
+      - work/server/zerotrust_tunnel.md
+    - Docker:
+      - work/docker/index.md
+      - work/docker/docker_wordpress.md
+      - work/docker/docker_dae.md
+    - Linux:
+      - work/linux/index.md
+      - work/linux/wsl_zsh.md
+    - Network:
+      - work/network/index.md
+      - work/network/clash_zjuvpn.md
+      - work/network/redmi_ac2100.md
   - Core Curriculum:
     - courses/index.md
   - Computer Science:
     - cs/index.md
+    - cs/makefile.md
   - Geoscience:
     - geoscience/index.md
   - Others:
