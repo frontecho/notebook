@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+mkdocs-glightbox
+mkdocs-minify-plugin
+mkdocs-statistics-plugin
+mkdocs-git-revision-date-localized-plugin
+jieba
