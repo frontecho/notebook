@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://note.frontecho.top/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/courses/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/courses/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/cs/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/cs/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/cs/makefile/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/cs/makefile/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/geoscience/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/geoscience/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/home/links/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/home/links/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/others/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/home/tags/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/others/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/docker/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/docker/docker_dae/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/docker/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/docker/docker_wordpress/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/docker/docker_dae/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/linux/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/docker/docker_wordpress/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/linux/wsl_zsh/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/linux/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/network/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/linux/wsl_zsh/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/network/clash_zjuvpn/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/network/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/network/redmi_ac2100/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/network/clash_zjuvpn/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/server/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/network/redmi_ac2100/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/server/server_root/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/server/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/work/server/zerotrust_tunnel/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/server/server_root/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
     <url>
-         <loc>https://note.frontecho.top/home/tags/</loc>
-         <lastmod>2025-01-12</lastmod>
+         <loc>https://note.frtecho.com/work/server/zerotrust_tunnel/</loc>
+         <lastmod>2025-02-25</lastmod>
     </url>
 </urlset>
