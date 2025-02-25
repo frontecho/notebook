@@ -12,7 +12,7 @@ nostatistics: True
 <div class="flink-list">
 
 <div class="flink-list-item">
-    <a href="https://note.frontecho.top/" title="FrontEcho's Notebook" target="_blank">
+    <a href="https://note.frtecho.com/" title="FrontEcho's Notebook" target="_blank">
         <div class="flink-item-icon">
             <img src="../assets/FrontEcho.svg" alt="FrontEcho">
         </div>
